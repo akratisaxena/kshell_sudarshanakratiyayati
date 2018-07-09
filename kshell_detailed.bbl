@@ -1,0 +1,466 @@
+\begin{thebibliography}{10}
+
+\bibitem{borgatti2000models}
+Stephen~P Borgatti and Martin~G Everett.
+\newblock Models of core/periphery structures.
+\newblock {\em Social networks}, 21(4):375--395, 2000.
+
+\bibitem{carmi2007model}
+Shai Carmi, Shlomo Havlin, Scott Kirkpatrick, Yuval Shavitt, and Eran Shir.
+\newblock A model of internet topology using k-shell decomposition.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  104(27):11150--11154, 2007.
+
+\bibitem{seidman1983network}
+Stephen~B Seidman.
+\newblock Network structure and minimum degree.
+\newblock {\em Social networks}, 5(3):269--287, 1983.
+
+\bibitem{batagelj2011fast}
+Vladimir Batagelj and Matja{\v{z}} Zaver{\v{s}}nik.
+\newblock Fast algorithms for determining (generalized) core groups in social
+  networks.
+\newblock {\em Advances in Data Analysis and Classification}, 5(2):129--145,
+  2011.
+
+\bibitem{kitsak2010identification}
+Maksim Kitsak, Lazaros~K Gallos, Shlomo Havlin, Fredrik Liljeros, Lev Muchnik,
+  H~Eugene Stanley, and Hern{\'a}n~A Makse.
+\newblock Identification of influential spreaders in complex networks.
+\newblock {\em Nature physics}, 6(11):888--893, 2010.
+
+\bibitem{saxena2015understanding}
+Akrati Saxena, SRS Iyengar, and Yayati Gupta.
+\newblock Understanding spreading patterns on social networks based on network
+  topology.
+\newblock In {\em Advances in Social Networks Analysis and Mining (ASONAM),
+  2015 IEEE/ACM International Conference on}, pages 1616--1617. IEEE, 2015.
+
+\bibitem{pei2013spreading}
+Sen Pei and Hern{\'a}n~A Makse.
+\newblock Spreading dynamics in complex networks.
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2013(12):P12002, 2013.
+
+\bibitem{pei2014searching}
+Sen Pei, Lev Muchnik, Jos{\'e}~S Andrade~Jr, Zhiming Zheng, and Hern{\'a}n~A
+  Makse.
+\newblock Searching for superspreaders of information in real-world social
+  media.
+\newblock {\em Scientific reports}, 4:5547, 2014.
+
+\bibitem{zareie2018hierarchical}
+Ahmad Zareie and Amir Sheikhahmadi.
+\newblock A hierarchical approach for influential node ranking in complex
+  social networks.
+\newblock {\em Expert Systems with Applications}, 93:200--211, 2018.
+
+\bibitem{wang2016fast}
+Zhixiao Wang, Ya~Zhao, Jingke Xi, and Changjiang Du.
+\newblock Fast ranking influential nodes in complex networks using a k-shell
+  iteration factor.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  461:171--181, 2016.
+
+\bibitem{zeng2013ranking}
+An~Zeng and Cheng-Jun Zhang.
+\newblock Ranking spreaders by decomposing complex networks.
+\newblock {\em Physics Letters A}, 377(14):1031--1035, 2013.
+
+\bibitem{liu2013ranking}
+Jian-Guo Liu, Zhuo-Ming Ren, and Qiang Guo.
+\newblock Ranking the spreading influence in complex networks.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  392(18):4154--4159, 2013.
+
+\bibitem{liu2015improving}
+Ying Liu, Ming Tang, Tao Zhou, and Younghae Do.
+\newblock Improving the accuracy of the k-shell method by removing redundant
+  links: From a perspective of spreading dynamics.
+\newblock {\em Scientific reports}, 5:13172, 2015.
+
+\bibitem{hou2012identifying}
+Bonan Hou, Yiping Yao, and Dongsheng Liao.
+\newblock {Identifying all-around nodes for spreading dynamics in complex
+  networks}.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  391(15):4012--4017, 2012.
+
+\bibitem{basaras2013detecting}
+Pavlos Basaras, Dimitrios Katsaros, and Leandros Tassiulas.
+\newblock Detecting influential spreaders in complex, dynamic networks.
+\newblock {\em Computer}, 46(4):0024--29, 2013.
+
+\bibitem{bae2014identifying}
+Joonhyun Bae and Sangwook Kim.
+\newblock Identifying and ranking influential spreaders in complex networks by
+  neighborhood coreness.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  395:549--559, 2014.
+
+\bibitem{tatti2015density}
+Nikolaj Tatti and Aristides Gionis.
+\newblock Density-friendly graph decomposition.
+\newblock In {\em Proceedings of the 24th International Conference on World
+  Wide Web}, pages 1089--1099. International World Wide Web Conferences
+  Steering Committee, 2015.
+
+\bibitem{hirsch2005index}
+Jorge~E Hirsch.
+\newblock An index to quantify an individual's scientific research output.
+\newblock {\em Proceedings of the National academy of Sciences of the United
+  States of America}, pages 16569--16572, 2005.
+
+\bibitem{lu2016h}
+Linyuan L{\"u}, Tao Zhou, Qian-Ming Zhang, and H~Eugene Stanley.
+\newblock The h-index of a network node and its relation to degree and
+  coreness.
+\newblock {\em Nature communications}, 7, 2016.
+
+\bibitem{gupta2016pseudo}
+Yayati Gupta, Debarati Das, and SRS Iyengar.
+\newblock Pseudo-cores: The terminus of an intelligent viral meme’s
+  trajectory.
+\newblock In {\em Complex Networks VII}, pages 213--226. Springer, 2016.
+
+\bibitem{shaw1954some}
+Marvin~E Shaw.
+\newblock Some effects of unequal distribution of information upon group
+  performance in various communication nets.
+\newblock {\em Journal of abnormal and social psychology}, 49(4):547--553,
+  1954.
+
+\bibitem{chen2012identifying}
+Duanbing Chen, Linyuan L{\"u}, Ming-Sheng Shang, Yi-Cheng Zhang, and Tao Zhou.
+\newblock Identifying influential nodes in complex networks.
+\newblock {\em Physica a: Statistical mechanics and its applications},
+  391(4):1777--1787, 2012.
+
+\bibitem{sabidussi1966centrality}
+Gert Sabidussi.
+\newblock The centrality index of a graph.
+\newblock {\em Psychometrika}, 31(4):581--603, 1966.
+
+\bibitem{freeman1977set}
+Linton~C Freeman.
+\newblock A set of measures of centrality based on betweenness.
+\newblock {\em Sociometry}, pages 35--41, 1977.
+
+\bibitem{stephenson1989rethinking}
+Karen Stephenson and Marvin Zelen.
+\newblock Rethinking centrality: Methods and examples.
+\newblock {\em Social Networks}, 11(1):1--37, 1989.
+
+\bibitem{brin1998anatomy}
+Sergey Brin and Lawrence Page.
+\newblock The anatomy of a large-scale hypertextual web search engine in:
+  Seventh international world-wide web conference (www 1998), april 14-18,
+  1998, brisbane, australia.
+\newblock {\em Brisbane, Australia}, 1998.
+
+\bibitem{gupta2016modeling}
+Yayati Gupta, Akrati Saxena, Debarati Das, and SRS Iyengar.
+\newblock Modeling memetics using edge diversity.
+\newblock In {\em Complex Networks VII}, pages 187--198. Springer, 2016.
+
+\bibitem{garas2012k}
+Antonios Garas, Frank Schweitzer, and Shlomo Havlin.
+\newblock A k-shell decomposition method for weighted networks.
+\newblock {\em New Journal of Physics}, 14(8):083030, 2012.
+
+\bibitem{eidsaa2013s}
+Marius Eidsaa and Eivind Almaas.
+\newblock s-core network decomposition: A generalization of k-core analysis to
+  weighted networks.
+\newblock {\em Physical Review E}, 88(6):062819, 2013.
+
+\bibitem{wei2015weighted}
+Bo~Wei, Jie Liu, Daijun Wei, Cai Gao, and Yong Deng.
+\newblock Weighted k-shell decomposition for complex networks based on
+  potential edge weights.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  420:277--283, 2015.
+
+\bibitem{li2014efficient}
+Rong-Hua Li, Jeffrey~Xu Yu, and Rui Mao.
+\newblock Efficient core maintenance in large dynamic graphs.
+\newblock {\em Knowledge and Data Engineering, IEEE Transactions on},
+  26(10):2453--2465, 2014.
+
+\bibitem{jakma2012distributed}
+Paul Jakma, Marcin Orczyk, Colin~S Perkins, and Marwan Fayed.
+\newblock Distributed k-core decomposition of dynamic graphs.
+\newblock In {\em Proceedings of the 2012 ACM conference on CoNEXT student
+  workshop}, pages 39--40. ACM, 2012.
+
+\bibitem{pechlivanidou2014mapreduce}
+Katerina Pechlivanidou, Dimitrios Katsaros, and Leandros Tassiulas.
+\newblock Mapreduce-based distributed k-shell decomposition for online social
+  networks.
+\newblock In {\em Services (SERVICES), 2014 IEEE World Congress on}, pages
+  30--37. IEEE, 2014.
+
+\bibitem{montresor2013distributed}
+Alberto Montresor, Francesco De~Pellegrini, and Daniele Miorandi.
+\newblock Distributed k-core decomposition.
+\newblock {\em Parallel and Distributed Systems, IEEE Transactions on},
+  24(2):288--300, 2013.
+
+\bibitem{dasari2014park}
+Naga~Shailaja Dasari, Ranjan Desh, and Mohammad Zubair.
+\newblock Park: An efficient algorithm for k-core decomposition on multicore
+  processors.
+\newblock In {\em Big Data (Big Data), 2014 IEEE International Conference on},
+  pages 9--16. IEEE, 2014.
+
+\bibitem{sariyuce2013streaming}
+Ahmet~Erdem Sar{\'\i}y{\"u}ce, Bu{\u{g}}ra Gedik, Gabriela Jacques-Silva,
+  Kun-Lung Wu, and {\"U}mit~V {\c{C}}ataly{\"u}rek.
+\newblock Streaming algorithms for k-core decomposition.
+\newblock {\em Proceedings of the VLDB Endowment}, 6(6):433--444, 2013.
+
+\bibitem{catini2015identifying}
+Roberto Catini, Dmytro Karamshuk, Orion Penner, and Massimo Riccaboni.
+\newblock Identifying geographic clusters: A network analytic approach.
+\newblock {\em Research policy}, 44(9):1749--1762, 2015.
+
+\bibitem{fricke2015core}
+Daniel Fricke and Thomas Lux.
+\newblock Core--periphery structure in the overnight money market: evidence
+  from the e-mid trading platform.
+\newblock {\em Computational Economics}, 45(3):359--395, 2015.
+
+\bibitem{barucca2016disentangling}
+Paolo Barucca and Fabrizio Lillo.
+\newblock Disentangling bipartite and core-periphery structure in financial
+  networks.
+\newblock {\em Chaos, Solitons \& Fractals}, 88:244--253, 2016.
+
+\bibitem{bassett2013task}
+Danielle~S Bassett, Nicholas~F Wymbs, M~Puck Rombach, Mason~A Porter, Peter~J
+  Mucha, and Scott~T Grafton.
+\newblock Task-based core-periphery organization of human brain dynamics.
+\newblock {\em PLoS computational biology}, 9(9):e1003171, 2013.
+
+\bibitem{park2013structural}
+Hae-Jeong Park and Karl Friston.
+\newblock Structural and functional brain networks: from connections to
+  cognition.
+\newblock {\em Science}, 342(6158):1238411, 2013.
+
+\bibitem{chatterjee2007understanding}
+Nivedita Chatterjee and Sitabhra Sinha.
+\newblock Understanding the mind of a worm: hierarchical network structure
+  underlying nervous system function in c. elegans.
+\newblock {\em Progress in brain research}, 168:145--153, 2007.
+
+\bibitem{obradovic2009journey}
+Darko Obradovic and Stephan Baumann.
+\newblock A journey to the core of the blogosphere.
+\newblock In {\em Social Network Analysis and Mining, 2009. ASONAM'09.
+  International Conference on Advances in}, pages 1--6. IEEE, 2009.
+
+\bibitem{leydesdorff2013international}
+Loet Leydesdorff, Caroline Wagner, Han~Woo Park, and Jonathan Adams.
+\newblock International collaboration in science: The global map and the
+  network.
+\newblock {\em arXiv preprint arXiv:1301.0801}, 2013.
+
+\bibitem{hu2008visual}
+Clark Hu and Pradeep Racherla.
+\newblock Visual representation of knowledge networks: A social network
+  analysis of hospitality research domain.
+\newblock {\em International Journal of Hospitality Management},
+  27(2):302--312, 2008.
+
+\bibitem{luo2009core}
+Feng Luo, Bo~Li, Xiu-Feng Wan, and Richard~H Scheuermann.
+\newblock Core and periphery structures in protein interaction networks.
+\newblock In {\em Bmc Bioinformatics}, volume~10, page~S8. BioMed Central,
+  2009.
+
+\bibitem{crowston2006core}
+Kevin Crowston, Kangning Wei, Qing Li, and James Howison.
+\newblock Core and periphery in free/libre and open source software team
+  communications.
+\newblock In {\em System Sciences, 2006. HICSS'06. Proceedings of the 39th
+  Annual Hawaii International Conference on}, volume~6, pages 118a--118a. IEEE,
+  2006.
+
+\bibitem{amrit2010exploring}
+Chintan Amrit and Jos Van~Hillegersberg.
+\newblock Exploring the impact of socio-technical core-periphery structures in
+  open source software development.
+\newblock {\em journal of information technology}, 25(2):216--229, 2010.
+
+\bibitem{setia2012peripheral}
+Pankaj Setia, Balaji Rajagopalan, Vallabh Sambamurthy, and Roger Calantone.
+\newblock How peripheral developers contribute to open-source software
+  development.
+\newblock {\em Information Systems Research}, 23(1):144--163, 2012.
+
+\bibitem{cataldo2008communication}
+Marcelo Cataldo and James~D Herbsleb.
+\newblock Communication networks in geographically distributed software
+  development.
+\newblock In {\em Proceedings of the 2008 ACM conference on Computer supported
+  cooperative work}, pages 579--588. ACM, 2008.
+
+\bibitem{cattani2014insiders}
+Gino Cattani, Simone Ferriani, and Paul~D Allison.
+\newblock Insiders, outsiders, and the struggle for consecration in cultural
+  fields: A core-periphery perspective.
+\newblock {\em American Sociological Review}, 79(2):258--281, 2014.
+
+\bibitem{fedorenko2014reworking}
+Evelina Fedorenko and Sharon~L Thompson-Schill.
+\newblock Reworking the language network.
+\newblock {\em Trends in cognitive sciences}, 18(3):120--126, 2014.
+
+\bibitem{paolillo2008structure}
+John~C Paolillo.
+\newblock Structure and network in the youtube core.
+\newblock In {\em Hawaii International Conference on System Sciences,
+  Proceedings of the 41st Annual}, pages 156--156. IEEE, 2008.
+
+\bibitem{zhao2007modular}
+Jing Zhao, Guo-Hui Ding, Lin Tao, Hong Yu, Zhong-Hao Yu, Jian-Hua Luo, Zhi-Wei
+  Cao, and Yi-Xue Li.
+\newblock Modular co-evolution of metabolic networks.
+\newblock {\em BMC bioinformatics}, 8(1):311, 2007.
+
+\bibitem{saxena2016evolving}
+Akrati Saxena and SRS Iyengar.
+\newblock Evolving models for meso-scale structures.
+\newblock In {\em Communication Systems and Networks (COMSNETS), 2016 8th
+  International Conference on}, pages 1--8. IEEE, 2016.
+
+\bibitem{adeniji2017generative}
+Oludare Adeniji, David~S Cohick, Ralucca Gera, Victor~G Castro, and Akrati
+  Saxena.
+\newblock A generative model for the layers of terrorist networks.
+\newblock In {\em Proceedings of the 2017 IEEE/ACM International Conference on
+  Advances in Social Networks Analysis and Mining 2017}, pages 690--697. ACM,
+  2017.
+
+\bibitem{karwa2017statistical}
+Vishesh Karwa, Michael~J Pelsmajer, Sonja Petrovi{\'c}, Despina Stasi, Dane
+  Wilburne, et~al.
+\newblock Statistical models for cores decomposition of an undirected random
+  graph.
+\newblock {\em Electronic Journal of Statistics}, 11(1):1949--1982, 2017.
+
+\bibitem{saxena2017global}
+Akrati Saxena and SRS Iyengar.
+\newblock Global rank estimation.
+\newblock {\em arXiv preprint arXiv:1710.11341}, 2017.
+
+\bibitem{saxena2015rank}
+Akrati Saxena, Vaibhav Malik, and SRS Iyengar.
+\newblock Rank me thou shalln't compare me.
+\newblock {\em arXiv preprint arXiv:1511.09050}, 2015.
+
+\bibitem{saxena2015estimating}
+Akrati Saxena, Vaibhav Malik, and SRS Iyengar.
+\newblock Estimating the degree centrality ranking of a node.
+\newblock {\em arXiv preprint arXiv:1511.05732}, 2015.
+
+\bibitem{saxena2017observe}
+Akrati Saxena, Ralucca Gera, and SRS Iyengar.
+\newblock Observe locally rank globally.
+\newblock In {\em Proceedings of the 2017 IEEE/ACM International Conference on
+  Advances in Social Networks Analysis and Mining 2017}, pages 139--144. ACM,
+  2017.
+
+\bibitem{saxena2017degree}
+Akrati Saxena, Ralucca Gera, and SRS Iyengar.
+\newblock Degree ranking using local information.
+\newblock {\em arXiv preprint arXiv:1706.01205}, 2017.
+
+\bibitem{saxena2017fast}
+Akrati Saxena, Ralucca Gera, and SRS Iyengar.
+\newblock Fast estimation of closeness centrality ranking.
+\newblock In {\em Proceedings of the 2017 IEEE/ACM International Conference on
+  Advances in Social Networks Analysis and Mining 2017}, pages 80--85. ACM,
+  2017.
+
+\bibitem{castellano2010thresholds}
+Claudio Castellano and Romualdo Pastor-Satorras.
+\newblock Thresholds for epidemic spreading in networks.
+\newblock {\em Physical review letters}, 105(21):218701, 2010.
+
+\bibitem{leskovec2007graph}
+Jure Leskovec, Jon Kleinberg, and Christos Faloutsos.
+\newblock Graph evolution: Densification and shrinking diameters.
+\newblock {\em ACM Transactions on Knowledge Discovery from Data (TKDD)},
+  1(1):2, 2007.
+
+\bibitem{zafarani2009social}
+R.~Zafarani and H.~Liu.
+\newblock Social computing data repository at {ASU}, 2009.
+
+\bibitem{yang2015defining}
+Jaewon Yang and Jure Leskovec.
+\newblock Defining and evaluating network communities based on ground-truth.
+\newblock {\em Knowledge and Information Systems}, 42(1):181--213, 2015.
+
+\bibitem{hogg2012social}
+Tad Hogg and Kristina Lerman.
+\newblock Social dynamics of digg.
+\newblock {\em EPJ Data Science}, 1(1):1--26, 2012.
+
+\bibitem{klimt2004enron}
+Bryan Klimt and Yiming Yang.
+\newblock The enron corpus: A new dataset for email classification research.
+\newblock In {\em Machine learning: ECML 2004}, pages 217--226. Springer, 2004.
+
+\bibitem{viswanath2009evolution}
+Bimal Viswanath, Alan Mislove, Meeyoung Cha, and Krishna~P Gummadi.
+\newblock On the evolution of user interaction in facebook.
+\newblock In {\em Proceedings of the 2nd ACM workshop on Online social
+  networks}, pages 37--42. ACM, 2009.
+
+\bibitem{cho2011friendship}
+Eunjoon Cho, Seth~A Myers, and Jure Leskovec.
+\newblock Friendship and mobility: user movement in location-based social
+  networks.
+\newblock In {\em Proceedings of the 17th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 1082--1090. ACM, 2011.
+
+\bibitem{kurant2012graph}
+Maciej Kurant, Carter~T Butts, and Athina Markopoulou.
+\newblock Graph size estimation.
+\newblock {\em arXiv preprint arXiv:1210.0460}, 2012.
+
+\bibitem{hardiman2013estimating}
+Stephen~J Hardiman and Liran Katzir.
+\newblock Estimating clustering coefficients and size of social networks via
+  random walk.
+\newblock In {\em Proceedings of the 22nd international conference on World
+  Wide Web}, pages 539--550. International World Wide Web Conferences Steering
+  Committee, 2013.
+
+\bibitem{dasgupta2014estimating}
+Anirban Dasgupta, Ravi Kumar, and Tamas Sarlos.
+\newblock On estimating the average degree.
+\newblock In {\em Proceedings of the 23rd international conference on World
+  wide web}, pages 795--806. ACM, 2014.
+
+\bibitem{ribeiro2012estimation}
+Bruno Ribeiro and Don Towsley.
+\newblock On the estimation accuracy of degree distributions from graph
+  sampling.
+\newblock In {\em Decision and Control (CDC), 2012 IEEE 51st Annual Conference
+  on}, pages 5240--5247. IEEE, 2012.
+
+\bibitem{more1978levenberg}
+Jorge~J Mor{\'e}.
+\newblock The levenberg-marquardt algorithm: implementation and theory.
+\newblock In {\em Numerical analysis}, pages 105--116. Springer, 1978.
+
+\bibitem{saxena2017afaster}
+Akrati Saxena, Ralucca Gera, and SRS Iyengar.
+\newblock A faster method to estimate closeness centrality ranking.
+\newblock {\em arXiv preprint arXiv:1706.02083}, 2017.
+
+\end{thebibliography}
