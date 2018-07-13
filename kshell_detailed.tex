@@ -113,15 +113,7 @@ Many studies have shown that core nodes are highly influential nodes in a networ
 
 %why kshell approximation is required
 
-Shell-index is a good centrality measure to denote the influential power of the node, but it has its disadvantages. Firstly, to compute the shell-index of a node using k-shell decomposition method, we need the entire network as it is a global centrality measure.  With time the size of real-world networks is growing very fast. It is not feasible to collect the entire network to identify the influential power of a node. So, we need faster methods that can estimate the influential power of a node using local neighborhood information. 
-
-Secondly, shell-index assigns the same index values to many nodes which actually might have different influential power \cite{zareie2018hierarchical, wang2016fast, zeng2013ranking}. Zeng et al. modified k-shell decomposition method and proposed a mixed degree decomposition (MDD) method which considers both the residual degree and the exhausted degree of the nodes while assigning them index values \cite{zeng2013ranking}. Liu et al. proposed an improved ranking method that considers both the k-shell value of the node and its distance with the highest k-shell value nodes \cite{liu2013ranking}. The proposed method computes the shortest distance of all nodes with the highest k-shell nodes, so, it has high computational complexity. Liu et al. showed that in real-world networks some core-like groups are formed which are not true-core \cite{liu2015improving}. The nodes in these groups are tightly connected with each other but have very few links outside. Based on this observation, authors filtered out redundant links which have low diffusion power but supports non-pure core groups to be formed, and then apply k-shell decomposition methods. Authors show that the coreness computed on this new graph is a better metric of influential power and it is highly correlated with spreading power computed using SIR model in the original graph. 
-
-%kshell hybrid method
-Researchers also have proposed hybrid centrality measures by combining the k-shell with other existing centrality measures. Hou et al. introduced the concept of all-around score to find influential nodes \cite{hou2012identifying}. All around score of a node can be defined as, $Score=\sqrt{\left \| d \right \|^2 + \left \| C_B \right \| ^2 +\left \| k_s \right \|^2 }$, where $d$ is the degree, $C_B$ is the betweenness centrality, and $k_s$ is the shell-index of the node. The degree takes care of local connectivity of the node, betweenness takes care of shortest paths that represent global information, and k-shell represents the position of the node with respect to the center. The total time complexity of the complete process is $O(nm)$, as it depends on the complexity of betweenness centrality that has the highest complexity. Basaras et al. proposed a hybrid centrality measure based on degree and shell-index and showed that it works better than the traditional shell-index \cite{basaras2013detecting}. Bae and Kim proposed a method where the centrality value of a node is computed based on the shell-index value of its neighbors; it thus considers both degree and shell-index value of the nodes \cite{bae2014identifying}. The results show that the proposed method outperforms other methods in the scale-free networks with community structure. Tatti and Gionis proposed a graph decomposition method that considers both the connectivity as well as the local density while the k-shell decomposition method only considers the connectivity of the nodes \cite{tatti2015density}. The running time of the proposed algorithm is $O(|V|^2|E|)$. They further proposed a linear-time algorithm that computes a factor-2 approximation of the optimal decomposition value. All the proposed centrality measures have better monotonicity but all these measures require global information of the network to be computed, and so, they are not favorable in large-scale networks.
-%Researchers have also shown that the nodes belonging to the same shell index can have different influential powers \cite{zeng2013ranking, liu2013ranking}.
-%Eidsaa and Almaas \cite{eidsaa2013s} extended K-shell decomposition method and proposed S-shell decomposition method for weighted networks.
-
+Shell-index is a good centrality measure to denote the influential power of the node, but it has its disadvantages. Firstly, to compute the shell-index of a node using k-shell decomposition method, we need the entire network as it is a global centrality measure.  With time the size of real-world networks is growing very fast. It is not feasible to collect the entire network to identify the influential power of a node. So, we need faster methods that can estimate the influential power of a node using local neighborhood information. Secondly, shell-index assigns the same index values to many nodes which actually might have different influential power \cite{zareie2018hierarchical, wang2016fast, zeng2013ranking}. 
 
 %what we do in part 1 where we approximate kshell using h2index, we show that h2index is as good as kshell
 
@@ -150,6 +142,14 @@ The use of a specific centrality measure to identify important nodes is highly a
 
 
 %kshell extensions
+
+K-shell method assigns the same index values to many nodes which actually might have different influential power. Zeng et al. modified k-shell decomposition method and proposed a mixed degree decomposition (MDD) method which considers both the residual degree and the exhausted degree of the nodes while assigning them index values \cite{zeng2013ranking}. Liu et al. proposed an improved ranking method that considers both the k-shell value of the node and its distance with the highest k-shell value nodes \cite{liu2013ranking}. The proposed method computes the shortest distance of all nodes with the highest k-shell nodes, so, it has high computational complexity. Liu et al. showed that in real-world networks some core-like groups are formed which are not true-core \cite{liu2015improving}. The nodes in these groups are tightly connected with each other but have very few links outside. Based on this observation, authors filtered out redundant links which have low diffusion power but supports non-pure core groups to be formed, and then apply k-shell decomposition methods. Authors show that the coreness computed on this new graph is a better metric of influential power and it is highly correlated with spreading power computed using SIR model in the original graph. 
+
+%kshell hybrid method
+Researchers also have proposed hybrid centrality measures by combining the k-shell with other existing centrality measures. Hou et al. introduced the concept of all-around score to find influential nodes \cite{hou2012identifying}. All around score of a node can be defined as, $Score=\sqrt{\left \| d \right \|^2 + \left \| C_B \right \| ^2 +\left \| k_s \right \|^2 }$, where $d$ is the degree, $C_B$ is the betweenness centrality, and $k_s$ is the shell-index of the node. The degree takes care of local connectivity of the node, betweenness takes care of shortest paths that represent global information, and k-shell represents the position of the node with respect to the center. The total time complexity of the complete process is $O(nm)$, as it depends on the complexity of betweenness centrality that has the highest complexity. Basaras et al. proposed a hybrid centrality measure based on degree and shell-index and showed that it works better than the traditional shell-index \cite{basaras2013detecting}. Bae and Kim proposed a method where the centrality value of a node is computed based on the shell-index value of its neighbors; it thus considers both degree and shell-index value of the nodes \cite{bae2014identifying}. The results show that the proposed method outperforms other methods in the scale-free networks with community structure. Tatti and Gionis proposed a graph decomposition method that considers both the connectivity as well as the local density while the k-shell decomposition method only considers the connectivity of the nodes \cite{tatti2015density}. The running time of the proposed algorithm is $O(|V|^2|E|)$. They further proposed a linear-time algorithm that computes a factor-2 approximation of the optimal decomposition value. All the proposed centrality measures have better monotonicity but all these measures require global information of the network to be computed, and so, they are not favorable in large-scale networks.
+%Researchers have also shown that the nodes belonging to the same shell index can have different influential powers \cite{zeng2013ranking, liu2013ranking}.
+%Eidsaa and Almaas \cite{eidsaa2013s} extended K-shell decomposition method and proposed S-shell decomposition method for weighted networks.
+
 Initially, k-shell decomposition method was defined for unweighted undirected networks, but recently it has been extended to different types of networks. Garas et al. extended k-shell method to identify core-periphery structure in weighted networks \cite{garas2012k}. They define the weighted degree that considers both the degree as well as the weights of the connected edges. Then the weighted degree is used while applying the k-shell decomposition method. Eidsaa et al. also proposed a method to identify core-periphery structure in weighted networks where they only consider the strength of the nodes while pruning them in each iteration \cite{eidsaa2013s}. The strength of a node is defined as, $s_i=\sum_{j \epsilon \Gamma (i)} W_{ij}$, where $W_{ij}$ denotes the weight of an edge connecting nodes $i$ and $j$. Wei et al. proposed an edge-weighting k-shell method where they consider both the degree as well as the edge-weights and the edge weight is computed by adding the degree of its two end points \cite{wei2015weighted}. The importance of both of these parameters can be set using a tuning parameter which varies from 0 to 1. If it is set to 0, then the complete importance is given to edge-weights, and if it is set to 1, then the complete importance is given to the degree of the node.
 %In weighted networks, node strength\footnote{Strength of a node can be defined as, $s_i=\sum_{j \epsilon \Gamma (i)} W_{ij}$, where $W_{ij}$ denotes the weight of an edge connecting nodes $i$ and $j$.} is used instead of its degree to apply K-shell method and it assigns a shell index to each node. 
 
@@ -713,47 +713,83 @@ The proposed methods can be further improved by only computing the $h^2-index$ o
 We further observe that in real-world networks, the subgraph of all top-ranked nodes (the highest $h^2-index$ nodes) is connected. So, once we hit one top-ranked node, all top-ranked nodes can be identified. All these nodes can be used to spread the information faster in the network.
 %It can further fasten the information spreading process.% can be used to spread the information. %all the considered
 
+\section{Section 3: Rank Estimation of a Node}\label{sec3}
+
+%In the present work, we show that $h^2-index$ is a good centrality measure that can be used to identify the influential nodes. It has an advantage as it is a local centrality measure and can be computed for a node using its local neighborhood information. $h^2-index$ assigns an index value to each node that represents its influential power. But it gives no idea about how influential this node is with respect to the other nodes as we don't know what the minimum or maximum influential powers in the given network is and how these values vary among the nodes. 
+In many real-life applications, users are interested to know the relative importance of the node that can be measured using the rank of the node. The classical method to compute the rank of a node, will compute the index value of all the nodes and will compare them to get the rank of the interested node. The time complexity of the proposed method is very high as it computes the centrality value for all the nodes and its space complexity is also high as it requires the entire network. 
+
+
+We observe that percentile rank versus $h^2-index$ follows a unique pattern in all real-world networks as shown in Figure~\ref{fig1}. The percentile rank of a node is computed as $PercentileRank(u)=\frac{n-R(u)+1}{n}*100$, where $n$ is the network size and $R(u)$ is the rank of node $u$ based on its $h^2-index$ value in the given network. We study this curve and find that 4-parameters logistic equation better fits the curve. The equation of the curve is given as $PercentileRank(u) = n + \frac{1-n}{1+\left( \frac{h^2-index(u)}{C_{mid}}\right) ^p}$, where $C_{mid}$ is a constant, and $p$ denotes slope of the logistic curve at the middle point (also called hill's slope). The plots are shown in Figure~\ref{fig1}, where black colored circles show the actual percentile rank of the nodes and the red colored triangles show best fit for the 4-parameter logistic equation. The best fit curve is plotted using scaled Levenberg-Marquardt algorithm \cite{more1978levenberg} with 1000 iterations and 0.0001 tolerance. Once we estimate the parameters of the equation, the rank of a node can be computed in $O(1)$ time without computing the index values of all the nodes. A similar approach has been used to estimate the closeness rank of a node in $O(m)$ time \cite{saxena2017afaster}.
+
+In Table~\ref{tablerank}, we show the average error and standard deviation in the estimated rank using the best fit curve. In future, we will propose methods to estimate the parameters of the best fit curve using the local information of the network. The parameters of the equation can be estimated if we know two points of the curve.
+
+%that is a huge improvement over the classical ranking method having the time complexity $O(n.m)$ where $n$ and $m$ represent the total number of nodes and edges respectively \cite{saxena2017afaster}.
+
+%insert figure here
+\begin{figure}[htp]
+  \centering
+  \subcaptionbox{Astro-Ph}[.40\linewidth][c]{%
+    \includegraphics[width=.40\linewidth]{images/astro_k.png}}\quad
+  \subcaptionbox{Buzznet}[.40\linewidth][c]{%
+    \includegraphics[width=.40\linewidth]{images/buzznet_k.png}}
+   \subcaptionbox{Cond-Mat}[.40\linewidth][c]{%
+    \includegraphics[width=.40\linewidth]{images/condmat_k.png}}\quad
+  \subcaptionbox{DBLP}[.40\linewidth][c]{%
+    \includegraphics[width=.40\linewidth]{images/dblp_k.png}}
+    \subcaptionbox{Digg}[.40\linewidth][c]{%
+    \includegraphics[width=.40\linewidth]{images/digg_k.png}}\quad
+  \subcaptionbox{Enron}[.40\linewidth][c]{%
+    \includegraphics[width=.40\linewidth]{images/enron_k.png}}
+    \subcaptionbox{Facebook}[.40\linewidth][c]{%
+    \includegraphics[width=.40\linewidth]{images/fb_k.png}}\quad
+  \subcaptionbox{FB-Wall}[.40\linewidth][c]{%
+    \includegraphics[width=.40\linewidth]{images/fbwall_k.png}}
+    \subcaptionbox{Foursquare}[.40\linewidth][c]{%
+    \includegraphics[width=.40\linewidth]{images/foursquare_k.png}}\quad
+  \subcaptionbox{Gowalla}[.40\linewidth][c]{%
+    \includegraphics[width=.40\linewidth]{images/gowalla_k.png}}
+  \caption{Percentile Rank versus $h^2-index$}
+  \label{fig1}
+\end{figure}
+
+%we can add best fit parameters if required.
+\begin{table*}[htp]
+\centering
+\caption{Results for Rank Estimation using Best-fit Curve}
+\label{tablerank}
+\resizebox{0.6\columnwidth}{!}{%
+\begin{tabular}{|l|l|l|}
+\hline
+Network	&	Avg. Error	&	Std. Dev.	\\	\hline
+astro-ph	&	0.3585786572	&	0.2799515285	\\	\hline
+buzznet	&	0.4882475847	&	0.4604406318	\\	\hline
+condmat	&	0.6445420458	&	0.3868780324	\\	\hline
+dblp	&	0.1757178001	&	0.1434536392	\\	\hline
+digg	&	0.3560320321	&	0.2871690926	\\	\hline
+enron	&	0.5703748527	&	0.3135462032	\\	\hline
+fb	&	6.5857493125	&	5.6214277999	\\	\hline
+fb-wall	&	0.6480736627	&	0.433816658	\\	\hline
+foursquare	&	1.5378579372	&	1.4598262741	\\	\hline
+gowalla	&	0.1891852588	&	0.1160113617	\\	\hline
+															
+\end{tabular}	
+}																	
+\end{table*}
+
 \section{Conclusion}\label{conclusion}
 
 In this work, we have shown that $h^2-index$ is a good estimation of shell-index and can be used to identify influential nodes in real-world networks. 
 %We further compare the performance of $h^2-index$ and shell-index using monotonicity and SIR spreading model and 
 We also observed that $h^2-index$ has better monotonicity than the shell-index and has better correlation with the spreading power of the nodes.
 %In real life applications, we need to identify influential nodes using local information without having the entire network. 
-Next, we used Hill-Climbing based methods to hit the top-ranked nodes in the given network. The results show that a top-ranked node can be found in very less number of steps using local information. In very few cases, the walk is trapped at the local maxima and does not hit the top-ranked node. We further observed that all top-ranked nodes form a connected subgraph and once we find one top-ranked node, all the most influential nodes can be identified. In future, we would like to propose mathematical bound to compute the required number of steps to hit a top-ranked node in the given scale-free real-world network.
+Next, we used Hill-Climbing based methods to hit the top-ranked nodes in the given network. The results show that a top-ranked node can be found in very less number of steps using local information. In very few cases, the walk is trapped at the local maxima and does not hit the top-ranked node. We further observed that all top-ranked nodes form a connected subgraph and once we find one top-ranked node, all the most influential nodes can be identified. In future, we would like to propose mathematical bound to compute the required number of steps to hit a top-ranked node in the given scale-free real-world network. Next, we discuss a heuristic method to estimate the rank of the node. The estimation of the parameters of heuristic solution is left as a future task.
 
-\section{Future Directions}
-
-%This study further opens up various new research directions that can be looked at.
-%
-%\subsection*{Estimate the Influential Rank using Local Information}
-
-%In the present work, we show that $h^2-index$ is a good centrality measure that can be used to identify the influential nodes. It has an advantage as it is a local centrality measure and can be computed for a node using its local neighborhood information. $h^2-index$ assigns an index value to each node that represents its influential power. But it gives no idea about how influential this node is with respect to the other nodes as we don't know what the minimum or maximum influential powers in the given network is and how these values vary among the nodes. 
-In many real-life applications, users are interested to know the relative importance of the node that can be measured using the rank of the node. The classical method to compute the rank of a node, will compute the index value of all the nodes and will compare them to get the rank of the interested node. The time complexity of the proposed method is very high as it computes the centrality value for all the nodes and its space complexity is also high as it requires the entire network. In future, we are planning to propose fast and efficient methods that can directly estimate the $h^2-index$ rank of a node using local information without computing the centrality value of all the nodes. 
-
-We observe that percentile rank versus $h^2-index$ follows a unique pattern in all real-world networks as shown in Figure~\ref{fig1}. The percentile rank of a node is computed as $PercentileRank(u)=\frac{n-R(u)+1}{n}*100$, where $n$ is the network size and $R(u)$ is the rank of node $u$ based on its $h^2-index$ value in the given network. We study this curve and find that 4-parameters logistic equation better fits the curve. The equation of the curve is given as $PercentileRank(u) = n + \frac{1-n}{1+\left( \frac{h^2-index(u)}{C_{mid}}\right) ^p}$, where $C_{mid}$ is a constant, and $p$ denotes slope of the logistic curve at the middle point (also called hill's slope). The plots are shown for Astro-physics and FB-Wall interaction network in Figure~\ref{fig1}, where black line shows the actual percentile rank of the nodes and the red line shows best fit for the 4-parameter logistic equation. The best fit curve is plotted using scaled Levenberg-Marquardt algorithm \cite{more1978levenberg} with 1000 iterations and 0.0001 tolerance. Once we estimate the parameters of the equation, the rank of a node can be computed in $O(1)$ time without computing the index values of all the nodes. A similar approach has been used to estimate the closeness rank of a node in $O(m)$ time that is a huge improvement over the classical ranking method having the time complexity $O(n.m)$ where $n$ and $m$ represent the total number of nodes and edges respectively \cite{saxena2017afaster}.
-
-%insert figure here
-\begin{figure}[htp]
-  \centering
-  \subcaptionbox{Astro-Ph Collaboration Network}[.9\linewidth][c]{%
-    \includegraphics[width=.9\linewidth]{images/astroph_qti.png}}\quad
-  \subcaptionbox{FB-Wall Social Interaction Network}[.9\linewidth][c]{%
-    \includegraphics[width=.9\linewidth]{images/fbwall_qti.png}}
-  \caption{Percentile Rank versus $h^2-index$ in a. Astro-Ph and b. FB-Wall network}
-  \label{fig1}
-\end{figure}
-
-%In \cite{saxena2017fast}, we observed that the reverse closeness centrality rank versus closeness centrality follows the sigmoid curve and use this observation to propose a heuristic method to estimate the closeness rank of a node in $O(m)$ time complexity that is a huge improvement over the classical ranking method having the time complexity $O(n.m)$ where n and m represents the total number of nodes and edges respectively. 
-
-%\subsection*{Evolving Models}
-%
-%In real world networks, it has been observed that a new node prefers to make a connection with a more influential node where the influential power of the node is measured using its degree, fitness or centrality values. The shell-index of the node denotes how famous a node is in the given network and how close it is to the core of the network. But it could not be used for the evolving models as it is a global centrality measure. We can propose evolving model using h2-index of the node. 
 
 \textbf{Acknowledgement}: Authors would like to thank IIT Ropar HPC committee for providing the resources for performing the experiments. 
 
 
 \bibliographystyle{unsrt}
-\bibliography{/home/akrati/latex/mybib}
+\bibliography{mybib}
 
 
 \end{document}
